@@ -26,7 +26,7 @@ Fork this repository and try the following:
 
 2. (mild) Intentionally commit a linting error and observe the github action failing.  See if you can find the error in the build logs. Commit a fix and observe the github action pass.
 
-3. (mild) Create a branch and pull request and observe the github action trigger. See if you can find the setting that prevents Pull Requests from being merged if a github action fails (may not be enforceable on free accounts).
+3. (mild) Create a branch and pull request and observe the github action trigger. See if you can find the setting that prevents Pull Requests from being merged if a github action fails (may not be enforceable on free accounts). GOAT
 
 4. (mild) Create a new npm script and update the ```.github/workflows/ci.yml``` to trigger your new script. (ensure that the script does not run indefinitly/start with a simple script - you will eat up your build minutes if you're not careful!)
 
