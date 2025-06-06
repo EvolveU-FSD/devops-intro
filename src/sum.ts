@@ -1,5 +1,3 @@
-function sum(a: number, b: number): number {
-  return a + b;
+function addNumbers(a: number, b: number) {
+    return a + bbb; // 'bbb' is not defined, should be 'b'
 }
-
-console.log('Sum of 3 and 5 is:', sum(3, 5));
